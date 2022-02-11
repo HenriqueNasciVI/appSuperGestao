@@ -1,5 +1,7 @@
 @extends('site.layouts.basico')
 
+{{-- title page --}}
+@section('titulo', $titulo)
 @section('conteudo')
 
     <div class="topo">
